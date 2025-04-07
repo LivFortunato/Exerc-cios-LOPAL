@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Exercicio 5"/>
+        <attribute name="authors" value="DES-I1HS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-07 01:33:43 "/>
+        <attribute name="created" value="REVTLUkxSFM7RVNONTEyTjZOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MzA6MDQgIjsyNjI5"/>
+        <attribute name="edited" value="REVTLUkxSFM7RVNONTEyTjZOVEI3NzQ7MjAyNS0wNC0wNzsiMDE6MzM6NDMgIjsxOzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numAleatorio" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira um n&#250;mero:&quot;" newline="True"/>
+            <input variable="numAleatorio"/>
+            <if expression="numAleatorio %5 = 0">
+                <then>
+                    <output expression="&quot; O n&#250;mero &#233; m&#250;ltiplo de 5.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero n&#227;o &#233; m&#250;ltiplo de 5.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
